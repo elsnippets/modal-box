@@ -8,7 +8,6 @@ $(function() {
       // $modal.addClass('modal-box-vis');
     });
     $closeModal.on('click', function() {
-
       $modal.fadeOut('slow');
 
       // $modal.removeClass('modal-box-vis');

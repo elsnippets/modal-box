@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="stylesheet" href="css/index.css">
-		<title>Modal Box</title>
-	</head>
-	<body>
-		<!-- Trigger/Open The Modal -->
-		<a id="openModal" class="more-btn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Modal Box</title>
+</head>
+
+<body>
+    <!-- Trigger/Open The Modal -->
+    <a id="openModal" class="more-btn">
 			<img class="more" src="img/more.svg" alt="Більше">
 		</a>
-		<!-- The Modal -->
-		<div id="modalBox" class="modal-box">
-			<!-- Modal content -->
-			<div class="modal-content">
-				<span id="closeModal" class="close">&times;</span>
-				<!--            <div class="modal-header">
-					<h2>Modal Header</h2>
-				</div>
-				<div class="modal-body">
-					<p>Some text in the Modal Body</p>
-					<p>Some other text...</p>
-				</div>
-				<div class="modal-footer">
-					<h3>Modal Footer</h3>
-				</div> -->
-			</div>
-		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/uikit.min.js"></script>
-		<script src="js/index.js"></script>
-	</body>
+    <!-- The Modal -->
+    <div id="modalBox" class="modal-box">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <div class="left">
+                <div>
+                    <img id="image" class="" src="img/frontend-v2.png" alt="">
+                </div>
+                </div>
+                <div class="right">
+                    <h2>
+                		Опис
+                	</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse non totam vitae aliquam molestias voluptas eum, distinctio possimus voluptatem suscipit hic, fugiat alias dolorum ipsam vel provident necessitatibus explicabo! Nemo!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse non totam vitae aliquam molestias voluptas eum, distinctio possimus voluptatem suscipit hic, fugiat alias dolorum ipsam vel provident necessitatibus explicabo! Nemo!</p>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/uikit.min.js"></script>
+        <script src="js/index.js"></script>
+</body>
+
 </html>
